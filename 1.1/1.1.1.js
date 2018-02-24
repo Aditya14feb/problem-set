@@ -1,7 +1,14 @@
-//Program for length of the longest word in a sequence
-const konfinityDescription = 'A community of software developers supporting modern web';
-const delimitted = konfinityDescription.split(' ');
-console.log(delimitted);
-
-
-
+"use strict" ;
+let y = new Date
+let year=y.getFullYear();
+var counter=40;
+ 
+	while(counter>0){
+		if((year%400===0)||(year%4===0) && (year%100!=0)){
+			console.log(year);
+			year++;
+			counter--;
+		}
+		else
+			year++;
+	}
